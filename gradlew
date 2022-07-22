@@ -1,3 +1,4 @@
+chmod +x gradlew
 #!/usr/bin/env sh
 
 ##############################################################################
@@ -170,4 +171,3 @@ if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
 fi
 
 exec "$JAVACMD" "$@"
-chmod +x gradlew
